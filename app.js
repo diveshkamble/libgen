@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
         console.log(rows)
         res.send(rows)
     }
-    getData(url)
+    getData(url);
 
 })
 
